@@ -1,0 +1,103 @@
+@media (min-width: 576px) {
+    .logo {
+        max-width: 75%;
+    }
+    .tech-img { text-align: center; }
+    .tech-img img {
+        display: inline-block;
+    }
+    .email-box {
+        margin-top: 40px;
+    }
+    .header .main
+    {
+        margin-top: 50px;
+    }
+        
+    .main h1
+    {
+        font-size: 48px;
+    }
+    .header
+    {
+        height: 675px;
+    }
+    
+}
+  
+@media (min-width: 768px) {
+    .logo {
+        max-width: 75%;
+    }
+    .tech-img img {
+        float: right;
+    }
+    .header .main
+    {
+        margin-top: 135px;
+    }
+    .main h1
+    {
+        font-size: 58px;
+    }
+    .tech-title
+    {
+        text-align: left;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .main .btn-hire
+    {
+        margin-left: 20px;
+    }
+    .middle-bar .btn-hire
+    {
+        margin-top: 0px;
+    }
+    .recruit
+    {
+        margin-left: 20px;
+        
+    }
+}
+  
+@media (min-width: 992px) {
+    .logo {
+        max-width: 100%;
+    }
+    .header .main
+    {
+        margin-top: 135px;
+    }
+    .main h1
+    {
+        font-size: 72px;
+    }
+    .tech-title
+    {
+        display: inline-block;
+        margin-left: 8%;
+        vertical-align: middle;
+        margin-top: 10px;
+    }
+    .tech-title p{
+        margin-top: 8px;
+    }
+    .recruit
+    {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .email-box {
+        margin-top: 75px;
+    }
+}
+@media (min-width: 1600px)
+{
+    /* .container {
+        max-width: 1440px;
+    } */
+}
